@@ -15,9 +15,6 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button className="btn-primary text-lg">
-                Schedule a Consultation
-              </Button>
               <Button variant="outline" className="border-2 border-bloom-600 text-bloom-600 hover:bg-bloom-50 text-lg">
                 Learn More
               </Button>
@@ -38,11 +35,6 @@ const HeroSection = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <p className="text-sm font-medium bg-bloom-600/90 inline-block px-3 py-1 rounded-full">
-                    Next generation rehabilitation
-                  </p>
-                </div>
               </div>
             </div>
           </div>

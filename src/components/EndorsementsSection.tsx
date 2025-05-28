@@ -5,7 +5,7 @@ const EndorsementsSection = () => {
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-            Supported by Medical Experts
+            Supported By
           </h2>
           <p className="text-lg text-gray-600">
             Leading healthcare institutions trust and recommend BloomRehab

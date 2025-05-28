@@ -48,18 +48,6 @@ const HowItWorksSection = () => {
             />
           </div>
         </div>
-        
-        <div className="mt-16 md:mt-24 bg-gray-50 rounded-xl p-6 md:p-10 text-center">
-          <h3 className="text-2xl font-semibold mb-4 text-gray-900">
-            Ready to integrate BloomRehab into your practice?
-          </h3>
-          <p className="text-lg text-gray-600 mb-6">
-            Our team will guide you through every step of the implementation process.
-          </p>
-          <button className="btn-primary inline-block">
-            Get Started Now
-          </button>
-        </div>
       </div>
     </section>
   );
