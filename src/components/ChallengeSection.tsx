@@ -44,7 +44,7 @@ const ChallengeSection = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
             <div className="w-full md:w-1/3">
               <img 
-                src="/lovable-uploads/9e68a861-0db2-4dbf-a991-2f45d10b7b46.png"
+                src="/lovable-uploads/33236237-11e5-4d50-827a-b2e25ee7bfb8.png"
                 alt="Rehab Technology" 
                 className="rounded-lg w-full h-auto"
               />

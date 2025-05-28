@@ -30,7 +30,7 @@ const HeroSection = () => {
               <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-bloom-400 to-purple-400 opacity-30 blur-md"></div>
               <div className="relative bg-white rounded-xl shadow-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/8bf36cc7-e14d-4fe9-9a1b-cae81054dfc8.png"
+                  src="/lovable-uploads/33c05feb-53e0-4a28-be51-f474362fa3e1.png"
                   alt="BloomRehab system in use" 
                   className="w-full h-full object-cover"
                 />
