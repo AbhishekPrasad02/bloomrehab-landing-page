@@ -43,8 +43,8 @@ const SolutionSection = () => {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-300 to-blue-300 rounded-2xl blur opacity-30"></div>
               <div className="relative bg-white rounded-2xl shadow-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
-                  alt="BloomRehab system" 
+                  src="/lovable-uploads/880d5404-3f7e-4582-b3d0-28e96e2c79d4.png"
+                  alt="BloomRehab rehabilitation system in use" 
                   className="w-full h-auto"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-black/50 flex items-end">

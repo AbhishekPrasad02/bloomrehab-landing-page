@@ -9,7 +9,6 @@ import SolutionsForSection from '@/components/SolutionsForSection';
 import ComparisonSection from '@/components/ComparisonSection';
 import EndorsementsSection from '@/components/EndorsementsSection';
 import TeamSection from '@/components/TeamSection';
-import TractionSection from '@/components/TractionSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 
@@ -27,7 +26,6 @@ const Index = () => {
         <ComparisonSection />
         <EndorsementsSection />
         <TeamSection />
-        <TractionSection />
         <CTASection />
       </main>
       <Footer />
