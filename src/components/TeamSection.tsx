@@ -58,7 +58,7 @@ const TeamSection = () => {
           <TeamMember 
             name="Prashanth Jonna"
             role="CEO"
-            image="https://randomuser.me/api/portraits/men/32.jpg"
+            image="/lovable-uploads/880d5404-3f7e-4582-b3d0-28e96e2c79d4.png"
             bio="With extensive experience in healthcare innovation, Prashanth leads our vision to revolutionize rehabilitation technology."
           />
           
@@ -72,7 +72,7 @@ const TeamSection = () => {
           <TeamMember 
             name="Saurya Mishra"
             role="Technical Advisor"
-            image="https://randomuser.me/api/portraits/men/62.jpg"
+            image="/lovable-uploads/5abb6bfa-0540-4152-9b70-f6b4fa06d9dd.png"
             bio="Saurya brings valuable insights from years of experience in healthcare technology implementation and optimization."
           />
         </div>

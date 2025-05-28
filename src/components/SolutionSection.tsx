@@ -49,9 +49,6 @@ const SolutionSection = () => {
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-black/50 flex items-end">
                   <div className="p-6">
-                    <div className="inline-block bg-bloom-600 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">
-                      Next-gen Technology
-                    </div>
                     <h3 className="text-xl text-white font-semibold">Compact & Versatile Design</h3>
                   </div>
                 </div>
