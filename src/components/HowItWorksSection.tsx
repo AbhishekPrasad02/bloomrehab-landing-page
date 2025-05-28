@@ -24,29 +24,24 @@ const HowItWorksSection = () => {
           </p>
         </div>
 
-        <div className="relative">
-          {/* Connection Line */}
-          <div className="hidden md:block absolute top-1/4 left-0 right-0 h-0.5 bg-gray-200"></div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <StepItem 
+            number="1"
+            title="Initial Assessment"
+            description="Personalized evaluation of patient needs by our expert team, establishing baseline measurements and goals"
+          />
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <StepItem 
-              number="1"
-              title="Initial Assessment"
-              description="Personalized evaluation of patient needs by our expert team, establishing baseline measurements and goals"
-            />
-            
-            <StepItem 
-              number="2"
-              title="Tailored Therapy"
-              description="Customized rehabilitation programs using our advanced system, combining technology with evidence-based protocols"
-            />
-            
-            <StepItem 
-              number="3"
-              title="Progress Tracking"
-              description="Detailed analytics to monitor improvement over time, with adjustments to optimize recovery outcomes"
-            />
-          </div>
+          <StepItem 
+            number="2"
+            title="Tailored Therapy"
+            description="Customized rehabilitation programs using our advanced system, combining technology with evidence-based protocols"
+          />
+          
+          <StepItem 
+            number="3"
+            title="Progress Tracking"
+            description="Detailed analytics to monitor improvement over time, with adjustments to optimize recovery outcomes"
+          />
         </div>
       </div>
     </section>

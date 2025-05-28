@@ -6,9 +6,10 @@ interface TeamMemberProps {
   role: string;
   image: string;
   bio: string;
+  linkedinUrl: string;
 }
 
-const TeamMember = ({ name, role, image, bio }: TeamMemberProps) => {
+const TeamMember = ({ name, role, image, bio, linkedinUrl }: TeamMemberProps) => {
   return (
     <div className="flex flex-col items-center">
       <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-white shadow-lg">
@@ -23,7 +24,7 @@ const TeamMember = ({ name, role, image, bio }: TeamMemberProps) => {
       <p className="text-center text-gray-600 max-w-xs">{bio}</p>
       
       <div className="mt-4">
-        <a href="#" className="text-gray-400 hover:text-bloom-600 transition-colors">
+        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-bloom-600 transition-colors">
           <Linkedin className="w-5 h-5" />
         </a>
       </div>
@@ -50,6 +51,7 @@ const TeamSection = () => {
             role="CEO"
             image="/lovable-uploads/3b253154-a132-4659-9f69-6461e31f352b.png"
             bio="With extensive experience in healthcare innovation, Prashanth leads our vision to revolutionize rehabilitation technology."
+            linkedinUrl="https://www.linkedin.com/in/prashanth-jonna-akq/"
           />
           
           <TeamMember 
@@ -57,6 +59,7 @@ const TeamSection = () => {
             role="CTO"
             image="/lovable-uploads/e9207149-be46-4a81-8075-dab70755f4ea.png"
             bio="An expert in robotics and medical devices, Abhishek drives the technological development of our rehabilitation systems."
+            linkedinUrl="https://www.linkedin.com/in/abhishek-prasad-bloomrehab/"
           />
           
           <TeamMember 
@@ -64,6 +67,7 @@ const TeamSection = () => {
             role="Technical Advisor"
             image="/lovable-uploads/5abb6bfa-0540-4152-9b70-f6b4fa06d9dd.png"
             bio="Saurya brings valuable insights from years of experience in healthcare technology implementation and optimization."
+            linkedinUrl="https://www.linkedin.com/in/saurya-mishra/"
           />
         </div>
       </div>
